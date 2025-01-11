@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2984540444832952776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1129908879955370640, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769392580330192662, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984704148341272459, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      propertyPath: m_Name
+      value: Grass Tile
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4984704148341272459, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3112085702730017269}
+  m_SourcePrefab: {fileID: 100100000, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+--- !u!1 &2793649705215677272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1129908879955370640, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+  m_PrefabInstance: {fileID: 2984540444832952776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3181796149192790937 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 379205092111966801, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+  m_PrefabInstance: {fileID: 2984540444832952776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4685258674164948780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7525046894660595428, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+  m_PrefabInstance: {fileID: 2984540444832952776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7801938503427808835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4984704148341272459, guid: f955be148aec6d14d9ef65257ac77baf, type: 3}
+  m_PrefabInstance: {fileID: 2984540444832952776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3112085702730017269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7801938503427808835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7139937ac805db946b290d1f4bc93082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileName: Grass
+  TilePosition: {x: 0, y: 0}
+  render: {fileID: 3181796149192790937}
+  highlight: {fileID: 2793649705215677272}
+  isWalkable: 1
+  inRangeColor: {r: 0.6156863, g: 0.44313726, b: 0.21568628, a: 1}
+  baseColor: {r: 0.4039216, g: 0.69411767, b: 0.34117648, a: 1}
+  Selection: {fileID: 4685258674164948780}
+  InRange: 0
+  OccupiedUnit: {fileID: 0}
+  offsetColor: {r: 0.38431376, g: 0.6745098, b: 0.3254902, a: 1}
+  inRangeOffsetColor: {r: 0.6039216, g: 0.43137255, b: 0.20784314, a: 1}
